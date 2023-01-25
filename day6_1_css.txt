@@ -1,0 +1,53 @@
+.circle {
+    display: inline-block;
+    background-color: #FC6C85;
+    height: 15px;
+    width: 15px;
+    border-radius: 25px;
+   
+  }
+  
+  #container {
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+   
+  }
+  
+  #ball-1{
+    
+    -webkit-animation-name: bounce;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: infinite;
+    align-items: center;
+  }
+  #ball-2{
+    -webkit-animation-name: bounce;
+    -webkit-animation-delay: 1.1s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  #ball-3{
+    -webkit-animation-name: bounce;
+    -webkit-animation-delay: 1.2s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  @-webkit-keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(23px);
+    }
+    60% {
+      transform: translateY(-25px);
+    }
+    80%{
+      transform: translateY(0);
+    }
+  }

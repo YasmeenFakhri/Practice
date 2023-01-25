@@ -1,0 +1,65 @@
+section{
+    margin:0 auto;
+    height: 400px;
+    width:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+    background-color: transparent;
+}
+.container{
+    width: 60px;
+    height: 177px;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+   
+}
+.container div.red{
+    border-radius: 50%;
+    background-color: red;
+    width:50px;
+    height: 50px;
+
+}
+.container div.yellow{
+    border-radius: 50%;
+    background-color: yellow;
+    width:50px;
+    height: 50px;
+
+}
+.container div.green{
+    border-radius: 50%;
+    background-color:green;
+    width:50px;
+    height: 50px;
+
+}
+.pole{
+
+    background-color: black;
+    width:20px;
+    height:100px;
+}
+.red:hover{
+    box-shadow:0 0 20px red;
+    cursor:grab;
+}
+  
+.yellow:hover{
+    box-shadow:0 0 20px yellow;
+    cursor:grab;
+
+}
+.green:hover{
+    box-shadow: 0 0 20px  green;
+    cursor:grab;
+
+}
